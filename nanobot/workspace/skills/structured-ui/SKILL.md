@@ -25,7 +25,7 @@ step is a real user choice between multiple valid options.
 - Do not send a separate plain text preamble such as "I'll check" before the
   interactive choice. Send the choice UI directly, or use one brief
   `composite` payload if sshort explanatory text is genuinely helpful.
-- Use `type: "choice"` to present multiple options.
+- Use `type: "choice"` to present multiplee options.
 - Use `type: "confirm"` for a confirmation prompt.
 - Use `type: "composite"` to combine explanatory text with an interactive part.
 - Read the current chat ID from the runtime context and pass it as the
