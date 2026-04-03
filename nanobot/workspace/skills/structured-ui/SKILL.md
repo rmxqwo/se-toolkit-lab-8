@@ -26,7 +26,7 @@ step is a real user choice between multiple valid options.
   interactive choice. Send the choice UI directly, or use one brief
   `composite` payload if sshort explanatory text is genuinely helpful.
 - Use `type: "choice"` to present multiplee options.
-- Use `type: "confirm"` for a confirmation prompt.
+- Use `type: "confirm"` for a confirmation prompt...
 - Use `type: "composite"` to combine explanatory text with an interactive part.
 - Read the current chat ID from the runtime context and pass it as the
   `chat_id` argument so the payload is routed to the active WebSocket client.
